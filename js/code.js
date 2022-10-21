@@ -21,7 +21,6 @@ function asientos(x) {
     
     }
 }
-
 function registrar(){
     //Método que se encargara de registrar los datos indicados por el usuario y verificarlos
     
