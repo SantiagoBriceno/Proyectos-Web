@@ -1,0 +1,212 @@
+*{
+    box-sizing: border-box;
+}
+
+html {
+    /* Damos un fondo al documento html */
+    background-color: gray; 
+}
+
+body {
+    /* Con los conocimientos del trabajo escrito, damos fuente al texto de todo el documento html */
+    /* un fondo, margenes y un tamaño. Body es donde se mostrara la informacion de nuestro doc. */
+    font-family: 'Helvetica';
+    background-color: white;
+    margin: 50px auto;
+    border: 1px solid grey;
+    border-radius: 10px;
+    max-width: 1000px;
+    bottom: 7px;
+}
+
+
+ fieldset {
+    /* A nuestro contenedor fieldset le damos un margen superior para mas espacio con el elemento de arriba
+    
+    Un ancho relativo a el objeto que lo contiene, en este caso, div; del 90%
+     */
+    margin-top: 15px;
+    width: 90%;
+} 
+
+/* input[type=text] {
+    padding: 4px;
+    background-color: #F6F6F6;
+    border: 0;
+    box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.3);
+} */
+
+.form_group{
+    margin: 5px;
+}
+
+.form_input{
+    border:0;
+    border-bottom: 1px solid;
+    
+}
+
+.form_label{
+    /* Elementos con display: inline- block un elemento de linea que permite que se puedan alinear, al tener un ancho determinado. */
+    display: inline-block;
+    width: 10em;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.tamañoimagenes {
+    /*padding-left: 50px;*/
+    width: 100px;
+    height: 100px;
+    margin: 0 15px 0 30px;
+    position: relative;
+    top: 35px;
+    left: 50px;
+}
+
+.titulo {
+    position: relative;
+    width: 100%;
+    top: -15px;
+    text-align: center;
+    
+}
+
+.subtitulos {
+    font-weight: bold;
+}
+
+.asientosSelec {
+    font-family: 'Helvetica';
+    height: 20px;
+    width: 100px;
+    top: 5px;
+    margin-left: 55%;
+    margin-top: 0px;
+    border: 10px;
+    box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.3);
+}
+
+.caja-1 {
+    margin-left: 70px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 50px;
+    border: black 5px solid;
+    height: 200px;
+    border-radius: 15px;
+    position: relative;
+    width: 800px;
+    top: 7px;
+    vertical-align: middle;
+}
+
+
+.caja-2{
+    margin-left: 70px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 50px;
+    border: black 5px solid;
+    height: 680px;
+    border-radius: 15px;
+    position: relative;
+    width: 800px;
+    top: 7px;
+    vertical-align: middle;
+}
+
+
+.asientos {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    margin: 2px auto;
+    border: black 2px solid;
+    text-align: center;
+    background-color: #8ab6ff;
+    color: #8ab6ff;
+    }
+
+.asientos:hover {
+        background-color: rgb(57, 108, 204);
+        color: black;
+        cursor: pointer;
+        transition: all 0.2s;
+}
+
+.asientoReservado {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    margin: 2px auto;
+    border: black 2px solid;
+    text-align: center;
+    background-color: #ff9900;
+}
+
+.asientoReservado:hover{
+    background-color: rgb(226, 122, 36);
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.asientoOcupado{
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    margin: 2px auto;
+    border: black 2px solid;
+    text-align: center;
+    background-color: rgb(235, 68, 68);
+}
+
+.asientoOcupado:hover{
+    background-color: rgb(151, 40, 40);
+    color: black;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.letras{
+   text-align: center; 
+}
+
+
+
+.number{
+    text-align: center;
+    margin-right: 4px ;
+    border-right: grey 4px solid;
+    
+}
+
+.number-2{
+    text-align: center;
+    margin-left: 4px ;
+    border-left: grey 4px solid;
+}
+
+.registrar {
+    color: black;
+    background-color: lightsalmon;
+    border-radius: 6px;
+    border: 2px solid black;
+    position: relative;
+    width: 200px;
+    top: 8px;
+    text-align: center;
+}
+
+ .registrar:hover {
+    background-color: salmon;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s;
+ }    
+
+table{
+    empty-cells: hide;
+    
+}

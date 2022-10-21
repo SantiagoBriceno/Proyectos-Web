@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRABAJO NRO 1</title>
+    <!-- AUTO: SANTIAGO GABRIEL BRICEÑO FERNANDEZ
+    CI: 28063634 -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <!-- Encabezado de documento HTML -->
+    <header>
+        <input class="tamañoimagenes" type="image" src="assets/images/logo_ujap.jpg" />
+        <h2 class="titulo">Seleccion de asientos</h2>
+        <hr>
+    </header>
+
+    <!-- Contenedor de la primera parte del documento: Registro de datos de usuario-->
+    <div class = "caja-1">
+        <!-- Contenedor que almacena otras etiquetas y las encierra. (fin estetico)-->
+        <fieldset>
+            <legend class="subtitulos">Datos Pasajeros</legend>
+            <!-- form: Etiqueta que asocia partes de un para mas facilitar el manejo de los input -->
+            <form action="" class = "formulario"> 
+                <div class = "form_group">
+                    <label for="apellido_nombre" class = "form_label">Nombre y Apellido</label>
+                    <input type="text" value = "" name = "apellido_nombre" class = "form_input" id = "apellido_nombre">
+                </div>
+                <div class = "form_group">
+                    <label for="cedula" class = "form_label">Cedula de identidad</label>
+                    <input type="text" value = "" class = "form_input" name = "cedula" id = "cedula">
+                </div>
+
+            </form>
+        </fieldset>
+    </div>
+    <!-- Contenedor de la segunda parte del documento: Seleccion de asientos. -->
+    <div class="caja-2">
+        <fieldset>
+            <legend class="subtitulos">Seleccion Asientos</legend>
+            <!-- Tabla encargada de insertar los asientos, todos con un nombre, id y clase para dar efectos mostrados. -->
+            <table align="center">
+                <tr>
+                    <td></td>
+                    <td class = "letras">A</td>
+                    <td class = "letras">B</td>
+                    <td class = "letras"> </td>
+                    <td class = "letras">C</td>
+                    <td class = "letras">D</td>
+                    <td class = "letras">E</td>
+                    <td class = "letras">F</td>
+                    <td class = "letras">G</td>
+                    <td class = "letras"></td>
+                    <td class = "letras">H</td>
+                    <td class = "letras">J</td>
+
+                </tr>
+                <tr>
+                    <td class = "number">31</td>
+                    <td class= "asientos" onclick="asientos(this);" colspan="3"></td>
+                    <td class= "asientos" onclick="asientos(this);" name = "31C">C</td>
+                    <td class= "asientos" onclick="asientos(this);" name = "31D">D</td>
+                    <td class= "asientos" onclick="asientos(this);" name = "31E">E</td>
+                    <td class= "asientos" onclick="asientos(this);" name = "31F">F</td>
+                    <td class= "asientos" onclick="asientos(this);" name = "31G">G</td>
+                    <td class= "asientos" onclick="asientos(this);" colspan="3"></td>
+                    <td class = "number-2">31</td>
+                </tr>
+                <tr>
+                    <td class = "number">32</td>
+                    <td class= "asientos" onclick="asientos(this);" name = "32A">A</td>
+                    <td class= "asientos" onclick="asientos(this);" name = "32B">B</td>
+                    <td class= "asientos" onclick="asientos(this);" > </td>
+                    <td class= "asientos" onclick="asientos(this);" name = "32C">C</td>
+                    <td class= "asientos" onclick="asientos(this);" name = "32D">D</td>
+                    <td class= "asientos" onclick="asientos(this);" name = "32E">E</td>
+                    <td class= "asientos" onclick="asientos(this);" name = "32F">F</td>
+                    <td class= "asientos" onclick="asientos(this);" name = "32G">G</td>
+                    <td class= "asientos" onclick="asientos(this);" > </td>
+                    <td class= "asientos" onclick="asientos(this);" name = "32H">H</td>
+                    <td class= "asientos" onclick="asientos(this);" name = "32J">J</td>
+                    <td class = "number-2">32</td>
+                </tr>
+                <tr>
+                    <td class = "number">33</td>
+                    <td class= "asientos" onclick="asientos(this);" name = "33A">A</td>
+                    <td class= "asientos" onclick="asientos(this);" name = "33B">B</td>
+                    <td class= "asientos" onclick="asientos(this);"> </td>
+                    <td class= "asientos" onclick="asientos(this);" name = "33C">C</td>
+                    <td class= "asientos" onclick="asientos(this);" name = "33D">D</td>
+                    <td class= "asientos" onclick="asientos(this);" name = "33E">E</td>
+                    <td class= "asientos" onclick="asientos(this);" name = "33F">F</td>
+                    <td class= "asientos" onclick="asientos(this);" name = "33G">G</td>
+                    <td class= "asientos" onclick="asientos(this);"> </td>
+                    <td class= "asientos" onclick="asientos(this);" name = "33H">H</td>
+                    <td class= "asientos" onclick="asientos(this);" name = "33J">J</td>
+                    <td class = "number-2">33</td>
+                </tr>
+
+                <tr>
+                    <td class = "number">34</td>
+                    <td class= "asientos" onclick="asientos(this);" name = "34A">A</td>
+                    <td class= "asientos" onclick="asientos(this);" name = "34B">B</td>
+                    <td class= "asientos" onclick="asientos(this);"> </td>
+                    <td class= "asientos" onclick="asientos(this);" name = "34C">C</td>
+                    <td class= "asientos" onclick="asientos(this);" name = "34D">D</td>
+                    <td class= "asientos" onclick="asientos(this);" name = "34E">E</td>
+                    <td class= "asientos" onclick="asientos(this);" name = "34F">F</td>
+                    <td class= "asientos" onclick="asientos(this);" name = "34G">G</td>
+                    <td class= "asientos" onclick="asientos(this);"> </td>
+                    <td class= "asientos" onclick="asientos(this);" name = "34H">H</td>
+                    <td class= "asientos" onclick="asientos(this);" name = "34J">J</td>
+                    <td class = "number-2">34</td>
+                </tr>
+                <tr>
+                    <td class = "number">35</td>
+                    <td class= "asientos" onclick="asientos(this);" name = "35A">A</td>
+                    <td class= "asientos" onclick="asientos(this);" name = "35B">B</td>
+                    <td class= "asientos" onclick="asientos(this);"> </td>
+                    <td class= "asientos" onclick="asientos(this);" name = "35C">C</td>
+                    <td class= "asientos" onclick="asientos(this);" name = "35D">D</td>
+                    <td class= "asientos" onclick="asientos(this);" name = "35E">E</td>
+                    <td class= "asientos" onclick="asientos(this);" name = "35F">F</td>
+                    <td class= "asientos" onclick="asientos(this);" name = "35G">G</td>
+                    <td class= "asientos" onclick="asientos(this);"> </td>
+                    <td class= "asientos" onclick="asientos(this);" name = "35H">H</td>
+                    <td class= "asientos" onclick="asientos(this);" name = "35J">J</td>
+                    <td class = "number-2">35</td>
+                </tr>
+                <tr>
+                    <td class = "number">36</td>
+                    <td class= "asientos" onclick="asientos(this);" name = "36A">A</td>
+                    <td class= "asientos" onclick="asientos(this);" name = "36B">B</td>
+                    <td class= "asientos" onclick="asientos(this);"> </td>
+                    <td class= "asientos" onclick="asientos(this);" name = "36C">C</td>
+                    <td class= "asientos" onclick="asientos(this);" name = "36D">D</td>
+                    <td class= "asientos" onclick="asientos(this);" name = "36E">E</td>
+                    <td class= "asientos" onclick="asientos(this);" name = "36F">F</td>
+                    <td class= "asientos" onclick="asientos(this);" name = "36G">G</td>
+                    <td class= "asientos" onclick="asientos(this);"> </td>
+                    <td class= "asientos" onclick="asientos(this);" name = "36H">H</td>
+                    <td class= "asientos" onclick="asientos(this);" name = "36J">J</td>
+                    <td class = "number-2">36</td>
+                </tr>
+                <tr>
+                    <td class = "number">37</td>
+                    <td class= "asientos" onclick="asientos(this);" name = "37A">A</td>
+                    <td class= "asientos" onclick="asientos(this);" name = "37B">B</td>
+                    <td class= "asientos" onclick="asientos(this);"> </td>
+                    <td class= "asientos" onclick="asientos(this);" name = "37C">C</td>
+                    <td class= "asientos" onclick="asientos(this);" name = "37D">D</td>
+                    <td class= "asientos" onclick="asientos(this);" name = "37E">E</td>
+                    <td class= "asientos" onclick="asientos(this);" name = "37F">F</td>
+                    <td class= "asientos" onclick="asientos(this);" name = "37G">G</td>
+                    <td class= "asientos" onclick="asientos(this);"> </td>
+                    <td class= "asientos" onclick="asientos(this);" name = "37H">H</td>
+                    <td class= "asientos" onclick="asientos(this);" name = "37J">J</td>
+                    <td class = "number-2">37</td>
+                </tr>
+                <tr>
+                    <td class = "number">38</td>
+                    <td class= "asientos" onclick="asientos(this); "name = "38A" >A</td>
+                    <td class= "asientos" onclick="asientos(this); "name = "38B" >B</td>
+                    <td class= "asientos" onclick="asientos(this);" > </td>
+                    <td class= "asientos" onclick="asientos(this); "name = "38C" >C</td>
+                    <td class= "asientos" onclick="asientos(this); "name = "38D" >D</td>
+                    <td class= "asientos" onclick="asientos(this); "name = "38E" >E</td>
+                    <td class= "asientos" onclick="asientos(this); "name = "38F" >F</td>
+                    <td class= "asientos" onclick="asientos(this); "name = "38G" >G</td>
+                    <td class= "asientos" onclick="asientos(this);" > </td>
+                    <td class= "asientos" onclick="asientos(this); "name = "38H" >H</td>
+                    <td class= "asientos" onclick="asientos(this); "name = "38J" >J</td>
+                    <td class = "number-2">38</td>
+                </tr>
+                <tr>
+                    <td class = "number">39</td>
+                    <td class= "asientos" onclick="asientos(this);" name = "39A">A</td>
+                    <td class= "asientos" onclick="asientos(this);" name = "39B">B</td>
+                    <td class= "asientos" onclick="asientos(this);"> </td>
+                    <td class= "asientos" onclick="asientos(this);" name = "39C">C</td>
+                    <td class= "asientos" onclick="asientos(this);" name = "39D">D</td>
+                    <td class= "asientos" onclick="asientos(this);" name = "39E">E</td>
+                    <td class= "asientos" onclick="asientos(this);" name = "39F">F</td>
+                    <td class= "asientos" onclick="asientos(this);" name = "39G">G</td>
+                    <td class= "asientos" onclick="asientos(this);"> </td>
+                    <td class= "asientos" onclick="asientos(this);" name = "39H">H</td>
+                    <td class= "asientos" onclick="asientos(this);" name = "39J">J</td>
+                    <td class = "number-2">39</td>
+                </tr>
+                <tr>
+                    <td class = "number">40</td>
+                    <td class= "asientos" onclick="asientos(this);" name = "40A">A</td>
+                    <td class= "asientos" onclick="asientos(this);" name = "40B">B</td>
+                    <td class= "asientos" onclick="asientos(this);"> </td>
+                    <td class= "asientos" onclick="asientos(this);" name = "40C">C</td>
+                    <td class= "asientos" onclick="asientos(this);" name = "40D">D</td>
+                    <td class= "asientos" onclick="asientos(this);" name = "40E">E</td>
+                    <td class= "asientos" onclick="asientos(this);" name = "40F">F</td>
+                    <td class= "asientos" onclick="asientos(this);" name = "40G">G</td>
+                    <td class= "asientos" onclick="asientos(this);"> </td>
+                    <td class= "asientos" onclick="asientos(this);" name = "40H">H</td>
+                    <td class= "asientos" onclick="asientos(this);" name = "40J">J</td>
+                    <td class = "number-2">40</td>
+                </tr>
+                <tr>
+                    <td class = "number">41</td>
+                    <td class= "asientos" onclick="asientos(this);" name = "41A">A</td>
+                    <td class= "asientos" onclick="asientos(this);" name = "41B">B</td>
+                    <td class= "asientos" onclick="asientos(this);"> </td>
+                    <td class= "asientos" onclick="asientos(this);" name = "41C">C</td>
+                    <td class= "asientos" onclick="asientos(this);" name = "41D">D</td>
+                    <td class= "asientos" onclick="asientos(this);" name = "41E">E</td>
+                    <td class= "asientos" onclick="asientos(this);" name = "41F">F</td>
+                    <td class= "asientos" onclick="asientos(this);" name = "41G">G</td>
+                    <td class= "asientos" onclick="asientos(this);"> </td>
+                    <td class= "asientos" onclick="asientos(this);" name = "41H">H</td>
+                    <td class= "asientos" onclick="asientos(this);" name = "41J">J</td>
+                    <td class = "number-2">41</td>
+                </tr>
+                <tr>
+                    <td class = "number">42</td>
+                    <td class= "asientos" onclick="asientos(this);" name = "42A">A</td>
+                    <td class= "asientos" onclick="asientos(this);" name = "42B">B</td>
+                    <td class= "asientos" onclick="asientos(this);"> </td>
+                    <td class= "asientos" onclick="asientos(this);"> </td>
+                    <td class= "asientos" onclick="asientos(this);" name = "42D">D</td>
+                    <td class= "asientos" onclick="asientos(this);" name = "42E">E</td>
+                    <td class= "asientos" onclick="asientos(this);" name = "42F">F</td>
+                    <td class= "asientos" onclick="asientos(this);"> </td>
+                    <td class= "asientos" onclick="asientos(this);"> </td>
+                    <td class= "asientos" onclick="asientos(this);" name = "42H">H</td>
+                    <td class= "asientos" onclick="asientos(this);" name = "42J">J</td>
+                    <td class = "number-2">42</td>
+                </tr>
+
+            </table>
+        </fieldset>
+
+        <!-- Boton encargado de registrar  los datos ingresados junto con el/los asientos reservados-->
+        <input type="submit" class="registrar" onclick = "registrar()" name="btnSubmit" id="btnSubmit" value="Registrar" />
+        <p class = "asientosSelec" id = "asientosSelec" value =""></p>
+
+    </div>
+
+    <!-- Contenedor de la tercera parte del documento: Usuarios registrados -->
+    <div class = "caja-2">
+        <h2 class = "titulo">Registros</h2>
+        <fieldset>
+            <legend class= "subtitulos">Datos de pasajeros registrados</legend>
+            <p id = "registros"></p>
+        </fieldset>
+
+
+    </div>
+
+
+    <script src="js/code.js"></script>
+
+
+</body>
+</html>
